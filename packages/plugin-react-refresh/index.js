@@ -124,6 +124,7 @@ function reactRefreshPlugin(opts) {
         ],
         ast: !isReasonReact,
         sourceMaps: true,
+        inputSourceMap: /** @type {any} */ (false),
         sourceFileName: id
       })
 
